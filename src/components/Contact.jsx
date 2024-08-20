@@ -1,0 +1,73 @@
+import React from 'react';
+import { FaArrowTrendUp } from "react-icons/fa6";
+// import Swal from 'sweetalert2';
+
+
+const Contact = () => {
+    const onSubmit = async (event) => {
+        event.preventDefault();
+        const formData = new FormData(event.target);
+    
+        formData.append("access_key", "cc20f7b7-21c9-4a66-a1a0-8afd976148f5");
+    
+        const object = Object.fromEntries(formData);
+        const json = JSON.stringify(object);
+    
+        const res = await fetch("https://api.web3forms.com/submit", {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+            Accept: "application/json"
+          },
+          body: json
+        }).then((res) => res.json());
+    
+        if (res.success) {
+
+            alert(res.message)
+            // Swal.fire({
+            //     title: "Good job!",
+            //     text: "You clicked the button!",
+            //     icon: "success"
+            //   });
+        }
+      };
+    
+
+
+    return (
+        <div id="contact" className="w-full px-[12%] py-10 scroll-mt-20 bg-no-repeat bg-[length:90%,auto] bg-center"
+        >
+            <h4 className="text-center mb-2 text-lg">Connect with me</h4>
+            <h2 className="text-center text-5xl">Get in touch</h2>
+            <p className="text-center max-w-2xl mx-auto mt-5 mb-12">
+                I'd love to hear from you! If you have any questions, comments or feedback, please use the form below.
+            </p>
+            <form onSubmit={onSubmit}  className="max-w-2xl mx-auto">
+                <div className="grid grid-cols-2 gap-6 mt-10 mb-6">
+                    <input
+                        type="text"
+                        placeholder="Enter your name"
+                        name='name'
+                        required
+                        className="flex-1 p-3 outline-none border-[0.5px] border-gray-400 text-black rounded-md bg-white"
+                    />
+                    <input
+                        type="text"
+                        placeholder="Enter your email"
+                        name='email'
+                        required
+                        className="flex-1 p-3 outline-none border-[0.5px] border-gray-400 text-black rounded-md bg-white"
+                    />
+                </div>
+                <textarea rows="6" placeholder='Enter your message' name='message' 
+                required
+                className=' w-full p-4 outline-none border-[0.5px] border-gray-400 text-black rounded-md bg-white mb-6' ></textarea>
+          
+                <button type="submit"  className=' px-8 py-3 w-max flex items-center justify-between gap-2 bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500  text-white rounded-full hover:brightness-110 mx-auto'>Submit now <FaArrowTrendUp className=' w-5' /></button>
+            </form>
+        </div>
+    );
+};
+
+export default Contact;
