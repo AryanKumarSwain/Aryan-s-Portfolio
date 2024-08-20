@@ -21,7 +21,7 @@ const Hero = () => {
               {HERO_CONTENT}
             </p>
           </div>
-          <button className="flex px-8 flex-shrink-0 justify-center items-center text-white text-lg rounded-full ml-52 bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500 font-light tracking-tighter p-3 mb-10 lg:mb-20 cursor-pointer hover:brightness-110 transition duration-300 ease-in-out"> <a href="https://drive.google.com/file/d/1VRooMQZLwqCJtLcAME6epPL0fqa11MNV/view?usp=sharing" target="_blank">My Resume </a> 
+          <button className="flex px-6 flex-shrink-0 justify-center items-center text-white text-lg rounded-full ml-52 bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500 font-light tracking-tighter p-3 mb-10 lg:mb-20 cursor-pointer hover:brightness-110 transition "> <a href="https://drive.google.com/file/d/1VRooMQZLwqCJtLcAME6epPL0fqa11MNV/view?usp=sharing" target="_blank">My Resume </a> 
              
           </button>
 

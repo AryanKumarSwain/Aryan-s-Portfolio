@@ -40,7 +40,7 @@ const SideMenu = () => {
                         <Link onClick={closeMenu} to="technologies" spy={true} smooth={true} offset={-140} duration={500}>TECHNOLOGIES</Link>
                     </li>
                     <li className="hover:contrast-150">
-                        <Link onClick={closeMenu} onClick={closeMenu} to="projects" spy={true} smooth={true} offset={-140} duration={500}>PROJECTS</Link>
+                        <Link onClick={closeMenu}  to="projects" spy={true} smooth={true} offset={-140} duration={500}>PROJECTS</Link>
                     </li>
                     <li className="hover:contrast-150">
                         <Link onClick={closeMenu} to="contact" spy={true} smooth={true} offset={-60} duration={500}>CONTACT</Link>
