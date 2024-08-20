@@ -9,7 +9,7 @@ const Footer = () => {
     return (
         <div className="mt-20">
             <div className="text-center">
-                <img src={logo} alt="Logo" className="w-28 mx-auto mb-2" />
+                <img src={logo} alt="Logo" className="w-32 mx-auto mb-2" />
                 <div className="w-max flex items-center gap-2 mx-auto">
                     <MdEmail className="w-6" />
                     <span>aryannn.ks@gmail.com</span>
