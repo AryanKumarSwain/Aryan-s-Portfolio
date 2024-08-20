@@ -30,20 +30,20 @@ const SideMenu = () => {
 >
         <button className="absolute right-6 top-6" onClick={closeMenu}><MdClose className="w-5 cursor-pointer" /></button>
         <ul className="flex flex-col font-extralight tracking-tight rounded-l-lg gap-4 py-10 px-5 cursor-pointer">
-        <li className="hover:contrast-150">
-                        <Link to="hero" spy={true} smooth={true} offset={10} duration={500}>HOME</Link>
+        <li  className="hover:contrast-150 " >
+                        <Link onClick={closeMenu} to="hero" spy={true} smooth={true} offset={10} duration={500}>HOME</Link>
                     </li>
                     <li className="hover:contrast-150">
-                        <Link to="about" spy={true} smooth={true} offset={-100} duration={500}>ABOUT ME</Link>
+                        <Link onClick={closeMenu} to="about" spy={true} smooth={true} offset={-100} duration={500}>ABOUT ME</Link>
                     </li>
                     <li className="hover:contrast-150">
-                        <Link to="technologies" spy={true} smooth={true} offset={-140} duration={500}>TECHNOLOGIES</Link>
+                        <Link onClick={closeMenu} to="technologies" spy={true} smooth={true} offset={-140} duration={500}>TECHNOLOGIES</Link>
                     </li>
                     <li className="hover:contrast-150">
-                        <Link to="projects" spy={true} smooth={true} offset={-140} duration={500}>PROJECTS</Link>
+                        <Link onClick={closeMenu} onClick={closeMenu} to="projects" spy={true} smooth={true} offset={-140} duration={500}>PROJECTS</Link>
                     </li>
                     <li className="hover:contrast-150">
-                        <Link to="contact" spy={true} smooth={true} offset={-60} duration={500}>CONTACT</Link>
+                        <Link onClick={closeMenu} to="contact" spy={true} smooth={true} offset={-60} duration={500}>CONTACT</Link>
                     </li>
         </ul>
         <footer>
