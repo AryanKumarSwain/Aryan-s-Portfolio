@@ -22,7 +22,7 @@ function Profession() {
   }, []);
 
   return (
-    <div className="App">
+    <div className="App col-w-[60%]">
       <span ref={el} />
     </div>
   );
