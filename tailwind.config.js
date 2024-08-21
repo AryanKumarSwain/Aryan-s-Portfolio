@@ -12,9 +12,6 @@ export default {
       },
     },
   },
-  darkMode: 'class', // Ensure this is set to 'class' if using classes or 'media' for media queries
-  variants: {
-    extend: {},
-  },
+  darkMode: 'class', // 'class' for toggling dark mode with a class, 'media' for using media queries
   plugins: [],
 };

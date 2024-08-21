@@ -21,7 +21,7 @@ const SideMenu = () => {
 
   return (
     <div>
-      <button onClick={openMenu}><RiMenu3Fill className="block lg:hidden mx-10" /></button>
+      <button onClick={openMenu}><RiMenu3Fill className="block lg:hidden mx-10 w-10" /></button>
       <div
         id="sideMenu"
         className={` rounded-t-lg fixed top-0 bottom-0 right-0 w-64 h-screen bg-gradient-to-r from-red-800 to-black transition-transform duration-500 ${
