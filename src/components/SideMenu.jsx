@@ -21,16 +21,16 @@ const SideMenu = () => {
 
   return (
     <div>
-      <button onClick={openMenu}><RiMenu3Fill className="block lg:hidden mx-10 w-10" /></button>
+      <button onClick={openMenu}><RiMenu3Fill className="block lg:hidden text-3xl mx-10 w-10" /></button>
       <div
         id="sideMenu"
         className={` rounded-t-lg fixed top-0 bottom-0 right-0 w-64 h-screen bg-gradient-to-r from-red-800 to-black transition-transform duration-500 ${
           menuOpen ? 'transform translate-x-0' : 'transform translate-x-full'
         }`}
 >
-        <button className="absolute right-6 top-6" onClick={closeMenu}><MdClose className="w-5 cursor-pointer" /></button>
-        <ul className="flex flex-col font-extralight tracking-tight rounded-l-lg gap-4 py-10 px-5 cursor-pointer">
-        <li  className="hover:contrast-150 " >
+        <button className="absolute right-6 top-6" onClick={closeMenu}><MdClose className="w-10 text-3xl cursor-pointer" /></button>
+        <ul className="flex flex-col font-extralight tracking-tight rounded-l-lg gap-6 py-10 px-5 cursor-pointer">
+        <li  className="hover:contrast-150 mt-8 " >
                         <Link onClick={closeMenu} to="hero" spy={true} smooth={true} offset={10} duration={500}>HOME</Link>
                     </li>
                     <li className="hover:contrast-150">

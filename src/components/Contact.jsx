@@ -64,7 +64,7 @@ const Contact = () => {
                 required
                 className=' w-full p-4 outline-none border-[0.5px] border-gray-400 text-black rounded-md bg-white mb-6' ></textarea>
           
-                <button type="submit"  className=' px-3 py-2 md:px-8 py-3 text-lg w-max flex items-center justify-between gap-2 bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500  text-white rounded-full hover:brightness-110 mx-auto'>Submit now <FaArrowTrendUp className=' w-5' /></button>
+                <button type="submit"  className=' px-3 py-2 md:px-8 py-3 text-lg w-max flex items-center justify-between gap-2 bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500  text-white rounded-full hover:brightness-110 mx-auto'>Submit <FaArrowTrendUp className=' w-5' /></button>
             </form>
         </div>
     );
