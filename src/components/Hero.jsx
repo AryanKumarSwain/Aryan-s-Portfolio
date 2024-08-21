@@ -37,7 +37,7 @@ const Hero = () => {
         </div>
 
 
-        <div className="hidden lg:block w-full w-1/2 p-16 ">
+        <div className="hidden w-full w-1/2 p-16 ">
 
           <div className="flex  justify-center items-center">
             <img className="rounded-full w-64 md:w-auto " src={profilePic} alt="Aryan" />
