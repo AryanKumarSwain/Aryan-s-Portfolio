@@ -36,7 +36,7 @@ const Contact = () => {
 
 
     return (
-        <div id="contact" className="w-full px-[12%] py-10 scroll-mt-20 bg-no-repeat bg-[length:90%,auto] bg-center"
+        <div id="contact" className="w-full px-1 py-10 "
         >
             <h4 className="text-center mb-2 text-lg">Connect with me</h4>
             <h2 className="text-center text-5xl">Get in touch</h2>
@@ -64,7 +64,7 @@ const Contact = () => {
                 required
                 className=' w-full p-4 outline-none border-[0.5px] border-gray-400 text-black rounded-md bg-white mb-6' ></textarea>
           
-                <button type="submit"  className=' px-8 py-3 w-max flex items-center justify-between gap-2 bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500  text-white rounded-full hover:brightness-110 mx-auto'>Submit now <FaArrowTrendUp className=' w-5' /></button>
+                <button type="submit"  className=' px-3 py-2 md:px-8 py-3 text-lg w-max flex items-center justify-between gap-2 bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500  text-white rounded-full hover:brightness-110 mx-auto'>Submit now <FaArrowTrendUp className=' w-5' /></button>
             </form>
         </div>
     );
