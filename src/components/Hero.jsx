@@ -17,10 +17,10 @@ const Hero = () => {
             <span className="bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500 bg-clip-text text-4xl tracking-tight text-transparent">
               <Profession />
             </span>
-            <div className="md:hidden w-full p-10 ">
+            <div className="lg:hidden p-10 ">
 
               <div className="flex  justify-center items-center">
-                <img className="rounded-full w-64 md:w-auto " src={profilePic} alt="Aryan" />
+                <img className="rounded-full w-64 " src={profilePic} alt="Aryan" />
 
               </div>
 
@@ -40,7 +40,7 @@ const Hero = () => {
         <div className="hidden lg:block w-1/2 p-16 ">
 
           <div className="flex  justify-center items-center">
-            <img className="rounded-full w-64 md:w-auto " src={profilePic} alt="Aryan" />
+            <img className="rounded-full w-auto " src={profilePic} alt="Aryan" />
 
           </div>
 

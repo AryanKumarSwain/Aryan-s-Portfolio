@@ -5,8 +5,8 @@ import { FaLinkedin } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 import { FaInstagram } from "react-icons/fa";
-import { RiMenu3Fill } from "react-icons/ri";
-
+// import { RiMenu3Fill } from "react-icons/ri";
+import { BiMenuAltRight } from "react-icons/bi";
 
 const SideMenu = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -21,7 +21,7 @@ const SideMenu = () => {
 
   return (
     <div>
-      <button onClick={openMenu}><RiMenu3Fill className="block lg:hidden text-3xl mx-10 w-10" /></button>
+      <button onClick={openMenu}><BiMenuAltRight className="block lg:hidden text-3xl mx-10 w-10" /></button>
       <div
         id="sideMenu"
         className={` rounded-t-lg fixed top-0 bottom-0 right-0 w-64 h-screen bg-gradient-to-r from-red-800 to-black transition-transform duration-500 ${

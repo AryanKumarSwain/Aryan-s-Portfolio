@@ -25,12 +25,12 @@ const Navbar = () => {
     //     };
     // }, []);
     return (
-        <nav className="fixed container w-full lg:px-2 xl:px[8%] flex items-center justify-between z-50">
+        <nav className="  fixed container w-full lg:px-2 xl:px[8%] flex items-center justify-between z-50">
             <div className="flex flex-shrink-0 items-center">
                 <img className="hover:contrast-180 w-32 cursor-pointer" src={logo} alt="logo" />
             </div>
             <div className="ml-2 flex flex-shrink-0 bg-white backdrop-blur-sm bg-opacity-10 shadow-xl rounded-full">
-                <ul className="hidden lg:flex gap-4 lg:gap-8 m-3 mr-8 ml-8 cursor-pointer list-none">
+                <ul className="hidden md:flex gap-4 lg:gap-8 m-3 mr-8 ml-8 p-1 cursor-pointer list-none">
                     <li className="hover:contrast-150">
                         <Link to="hero" spy={true} smooth={true} offset={10} duration={500}>HOME</Link>
                     </li>
