@@ -47,14 +47,14 @@ const Contact = () => {
                 <div className="grid grid-cols-2 gap-6 mt-10 mb-6">
                     <input
                         type="text"
-                        placeholder="Enter your name"
+                        placeholder="Your name"
                         name='name'
                         required
                         className="flex-1 p-3 outline-none border-[0.5px] border-gray-400 text-black rounded-md bg-white"
                     />
                     <input
                         type="text"
-                        placeholder="Enter your email"
+                        placeholder="Your email"
                         name='email'
                         required
                         className="flex-1 p-3 outline-none border-[0.5px] border-gray-400 text-black rounded-md bg-white"
