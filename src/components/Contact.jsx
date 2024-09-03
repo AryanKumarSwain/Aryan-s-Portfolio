@@ -1,6 +1,6 @@
 import React from 'react';
 import { FaArrowTrendUp } from "react-icons/fa6";
-// import Swal from 'sweetalert2';
+import Swal from 'sweetalert2';
 
 
 const Contact = () => {
@@ -24,12 +24,12 @@ const Contact = () => {
     
         if (res.success) {
 
-            alert(res.message)
-            // Swal.fire({
-            //     title: "Good job!",
-            //     text: "You clicked the button!",
-            //     icon: "success"
-            //   });
+            Swal.fire({
+                title: "Done!",
+                text: "Your Message is sent successfully!",
+                icon: "success"
+              });
+              
         }
       };
     
