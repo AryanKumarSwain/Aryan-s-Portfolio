@@ -3,7 +3,7 @@ import profilePic from "../assets/about0.jpeg";
 import profileVideo from "../assets/ProfileVideo.mp4";  // Correct path
 import Profession from "./Profession";
 import { useState } from "react";
-//gasdxfcgh
+
 const Hero = () => {
   const [isHovered, setIsHovered] = useState(false);
 
