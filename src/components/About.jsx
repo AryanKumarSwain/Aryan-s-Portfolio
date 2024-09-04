@@ -2,7 +2,7 @@ import { ABOUT_TEXT } from "../constants";
 import aboutImg from "../assets/aryanProfile1.jpeg";
 import aboutVideo from "../assets/aboutVideo.mp4"; 
 import { useState } from "react";
-//xfghzd
+
 const About = () => {
   const [isHovered, setIsHovered] = useState(false);
 
