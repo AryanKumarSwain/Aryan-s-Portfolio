@@ -1,6 +1,6 @@
 import { HERO_CONTENT } from "../constants";
 import profilePic from "../assets/about0.jpeg";
-import profileVideo from "../assets/profileVideo.mp4";
+import profileVideo from "../assets/videos/ProfileVideo.mp4";  // Correct path
 import Profession from "./Profession";
 import { useState } from "react";
 
@@ -72,7 +72,7 @@ const Hero = () => {
           </button>
         </div>
 
-        <div className="hidden lg:block w-1/2 p-16 ">
+        <div className="hidden lg:block w-1/2 p-16">
           <div className="flex justify-center items-center">
             {isHovered ? (
               <video
@@ -82,7 +82,6 @@ const Hero = () => {
                 onMouseEnter={handleMouseEnter}
                 onMouseLeave={handleMouseLeave}
                 loop
-                
                 style={{ maxWidth: "100%", borderRadius: "50%" }}
               />
             ) : (
@@ -102,4 +101,3 @@ const Hero = () => {
 };
 
 export default Hero;
-//fdgsfg
