@@ -82,7 +82,7 @@ const Hero = () => {
                 onMouseEnter={handleMouseEnter}
                 onMouseLeave={handleMouseLeave}
                 loop
-                muted
+                
                 style={{ maxWidth: "100%", borderRadius: "50%" }}
               />
             ) : (
