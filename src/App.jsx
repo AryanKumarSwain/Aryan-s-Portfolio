@@ -16,8 +16,8 @@ const App = () => {
     <div className=" overflow-x-hidden text-neutral-300 antialiased selection:bg-cyan-300 selection:text-cyan-900">
      {/* <div className="fixed top-0 -z-10 h-full w-full bg-[radial-gradient(125%_125%_at_50%_10%,#000_40%,#63e_100%)]"></div> */}
       {/* <div className="fixed inset-0 -z-10 h-full w-full bg-white [background:radial-gradient(125%_125%_at_50%_10%,#fff_40%,#63e_100%)]"></div> */}
-      <div className="fixed inset-0 -z-10 h-full w-full bg-dark-mode light:bg-light-mode"></div>
-         <div className=" container -mx-3 p-4 lg:mx-auto  px-9 ">
+      <div className="fixed inset-0 -z-10 h-full w-full bg-light-mode dark:bg-dark-mode"></div>
+         <div className=" container   lg:mx-auto  px-9 ">
         <Navbar />
         <Hero />
         <About />

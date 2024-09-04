@@ -1,6 +1,6 @@
 import { ABOUT_TEXT } from "../constants";
 import aboutImg from "../assets/aryanProfile1.jpeg";
-import aboutVideo from "../assets/aboutVideo.mp4"; // Assuming you have a video for the About section
+import aboutVideo from "../assets/aboutVideo.mp4"; 
 import { useState } from "react";
 
 const About = () => {
