@@ -1,6 +1,6 @@
 import { HERO_CONTENT } from "../constants";
 import profilePic from "../assets/about0.jpeg";
-import profileVideo from "../assets/videos/ProfileVideo.mp4";  // Correct path
+import profileVideo from "../assets/ProfileVideo.mp4";  // Correct path
 import Profession from "./Profession";
 import { useState } from "react";
 
