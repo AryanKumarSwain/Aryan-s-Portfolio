@@ -26,9 +26,9 @@ const ThemeChange = () => {
     return (
         <button
         onClick={toggleMode}
-        className="p-2 rounded-full text-lg cursor-pointer hover:contrast-150"
+        className=" p-2 text-gray-700 dark:text-gray-200 rounded-full text-2xl cursor-pointer hover:contrast-150"
     >
-        {isDarkMode ? <IoSunny className="text-white" /> : <FaMoon className="text-white" />}
+        {isDarkMode ? <IoSunny/> : <FaMoon  />}
     </button>
     
     );
