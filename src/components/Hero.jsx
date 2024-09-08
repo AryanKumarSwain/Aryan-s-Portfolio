@@ -3,7 +3,7 @@ import profilePic from "../assets/about0.jpeg";
 import profileVideo from "../assets/ProfileVideoR.mp4";  
 import Profession from "./Profession";
 import { useState } from "react";
-// dcfhsfdg
+
 const Hero = () => {
   const [videoEnded, setVideoEnded] = useState(false);
 
