@@ -36,7 +36,7 @@ const Contact = () => {
 
 
     return (
-        <div id="contact" className="w-full text-gray-800 dark:text-gray-200 px-1 py-10 "
+        <div id="contact" className="w-full text-black dark:text-gray-200 px-1 py-10 "
         >
             <h4 className="text-center mb-2 text-lg">Connect with me</h4>
             <h2 className="text-center text-5xl">Get in touch</h2>
@@ -50,21 +50,25 @@ const Contact = () => {
                         placeholder="Your name"
                         name='name'
                         required
-                        className="flex-1 p-3 outline-none border border-gray-400 dark:border-gray-600 text-white dark:text-black rounded-md bg-gray-500 dark:bg-white"
+                        className="flex-1 p-3 outline-none border border-gray-400 dark:border-gray-600 text-white dark:text-black rounded-md bg-black dark:bg-white"
                     />
                     <input
                         type="text"
                         placeholder="Your email"
                         name='email'
                         required
-                        className="flex-1 p-3 outline-none border border-gray-400 dark:border-gray-600 text-white dark:text-black rounded-md bg-gray-500 dark:bg-white"
+                        className="flex-1 p-3 outline-none border border-gray-400 dark:border-gray-600 text-white dark:text-black rounded-md bg-black dark:bg-white"
                     />
                 </div>
                 <textarea rows="6" placeholder='Enter your message' name='message' 
                 required
-                className=' w-full p-4 outline-none border border-gray-400 dark:border-gray-600  text-white dark:text-black rounded-md bg-gray-500 dark:bg-white mb-6' ></textarea>
+                className=' w-full p-4 outline-none border border-gray-400 dark:border-gray-600  text-white dark:text-black rounded-md bg-black dark:bg-white mb-6' ></textarea>
           
-                <button type="submit"  className=' px-4 md:px-8 py-3 text-lg w-max flex items-center justify-between gap-2 bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500  text-white rounded-full hover:brightness-110 mx-auto'>Submit <FaArrowTrendUp className=' w-5' /></button>
+          <button type="submit" className='px-4 md:px-8 py-3 text-lg w-max flex items-center justify-between gap-2 bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500 text-white rounded-full hover:shadow-[0_0_15px_rgba(128,90,213,0.8)] dark:hover:shadow-[0_0_15px_rgba(255,255,255,0.8)] transition-shadow duration-100 mx-auto'>
+  Submit <FaArrowTrendUp className='w-5' />
+</button>
+
+
             </form>
         </div>
     );

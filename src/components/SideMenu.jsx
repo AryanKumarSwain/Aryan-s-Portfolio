@@ -22,7 +22,7 @@ const SideMenu = () => {
   return (
     <div>
      
-      <button onClick={openMenu}><BiMenuAltRight className="block text-gray-800 dark:text-gray-200 lg:hidden text-3xl mx-10 w-10" /></button>
+      <button onClick={openMenu}><BiMenuAltRight className="block text-black dark:text-gray-200 lg:hidden text-3xl mx-10 w-10" /></button>
       <div
       
         id="sideMenu"

@@ -12,7 +12,7 @@ import { SiCplusplus } from "react-icons/si";
 import { IoLogoJavascript } from "react-icons/io5";
 const Technologies = () => {
   return (
-    <div id="technologies" className="border-b  text-gray-800 dark:text-gray-200  border-neutral-800  pb-24 ">
+    <div id="technologies" className="border-b  text-black dark:text-gray-200  border-neutral-800  pb-24 ">
       <h2 className="my-20 text-center text-4xl ">Technologies</h2>
       <div className="flex flex-wrap items-center  justify-center gap-6  ">
         <div className="relative rounded-2xl bg-black dark:bg-white dark:bg-opacity-10 backdrop-blur-sm bg-opacity-10 hover:bg-opacity-20 border-4 border-neutral dark:border-neutral-800 p-4 cursor-pointer">

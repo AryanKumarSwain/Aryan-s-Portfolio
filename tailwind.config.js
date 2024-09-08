@@ -7,12 +7,11 @@ export default {
   theme: {
     extend: {
       backgroundImage: {
-        'light-mode': "radial-gradient(125% 125% at 50% 10%, #FAF9F6  40%, #63e 100%)",
+        'light-mode': "radial-gradient(125% 125% at 50% 10%, #FAF9F6 40%, #63e 100%)",
         'dark-mode': "radial-gradient(125% 125% at 50% 10%, #000 40%, #63e 100%)",
       },
     },
   },
-  darkMode: 'class', // Use class strategy for dark mode
+  darkMode: 'class',
   plugins: [],
 };
-// #c5c4fe  #FAF9F6  #E6E6FA 

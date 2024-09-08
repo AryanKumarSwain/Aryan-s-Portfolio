@@ -7,7 +7,7 @@ import { FaInstagram } from "react-icons/fa";
 
 const Footer = () => {
     return (
-        <div className=" mt-10 md:mt-20 text-gray-800 dark:text-gray-200">
+        <div className=" mt-10 md:mt-20 text-black dark:text-gray-200">
             <div className="text-center">
                 <img src={logo} alt="Logo" className="w-32 mx-auto mb-2" />
                 <div className="w-max flex items-center gap-2 mx-auto">
@@ -15,7 +15,7 @@ const Footer = () => {
                     <span>aryannn.ks@gmail.com</span>
                 </div>
             </div>
-            <div className="text-center sm:flex items-center justify-between border-t border-gray-400 dark:border-gray-600  mx-[3%] mt-12 px-1 py-10 ">
+            <div className="text-center sm:flex items-center justify-between border-t border-gray-400 dark:border-gray-600 text-black dark:text-white  mx-[3%] mt-12 px-1 py-10 ">
                 <p>© 2024 SWAIN. All rights reserved.</p>
                 <ul className="flex justify-center gap-4">
                     <li className=' hover:contrast-150'><a href="https://linkedin.com/in/aryannn-ks/" target="_blank"><FaLinkedin/></a></li>

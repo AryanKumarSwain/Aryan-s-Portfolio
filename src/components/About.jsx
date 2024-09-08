@@ -18,7 +18,7 @@ const About = () => {
   };
 
   return (
-    <div id="about" className="border-b border-neutral-900  text-gray-800 dark:text-gray-200  pb-4">
+    <div id="about" className="border-b border-neutral-900  text-black dark:text-gray-200  pb-4">
       <h2 className="my-10 text-center text-4xl">
         About
         <span className="text-neutral-500"> Me</span>
