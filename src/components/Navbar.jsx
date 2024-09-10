@@ -40,9 +40,9 @@ const Navbar = () => {
 />
 
             </div>
-            <div className=" text-black dark:text-gray-200 ml-2 flex flex-shrink-0 rounded-full shadow-xl backdrop-blur-sm bg-black bg-opacity-10 dark:bg-white dark:bg-opacity-10">
+            <div className=" text-gray-700 dark:text-gray-200 ml-2 flex flex-shrink-0 rounded-full shadow-2xl backdrop-blur-sm bg-black bg-opacity-15 dark:bg-white dark:bg-opacity-15">
                 <ul className="hidden md:flex gap-4   lg:gap-8 ml-4 mr-4 p-4 cursor-pointer list-none">
-                    <li className="hover:contrast-150">
+                    <li className="hover:contrast-150 ">
                         <Link to="hero" spy={true} smooth={true} offset={10} duration={500}>HOME</Link>
                     </li>
                     <li className="hover:contrast-150">

@@ -41,7 +41,7 @@ const ThemeChange = () => {
             onClick={toggleMode}
             className="p-2 text-gray-800 dark:text-gray-200 rounded-full text-2xl cursor-pointer hover:contrast-150"
         >
-            {isDarkMode ? <IoSunny /> : <FaMoon />}
+            {isDarkMode ? <FaMoon /> : <IoSunny />}
         </button>
     );
 };
