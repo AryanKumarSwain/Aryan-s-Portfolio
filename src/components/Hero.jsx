@@ -12,7 +12,7 @@ const Hero = () => {
   };
 
   return (
-    <div id="hero" className="py-20  border-b border-neutral-900 pb-54 lg:mb-35">
+    <div id="hero" className=" py-14 px-5 border-b border-neutral-900 pb-54 lg:mb-35">
       <div className="flex flex-wrap  text-black dark:text-gray-200 ">
         <div className="w-full lg:w-1/2">
           <div className="flex flex-col items-center lg:items-start">

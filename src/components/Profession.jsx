@@ -7,7 +7,7 @@ function Profession() {
 
   React.useEffect(() => {
     const typed = new Typed(el.current, {
-      strings: ['Web Developer','Coder','Graphic Designer'],
+      strings: ['Web Developer','Coder','Graphic Designer','Freelancer'],
       loop: true,
       typeSpeed : 100,
       backSpeed : 80,
@@ -16,7 +16,7 @@ function Profession() {
     });
 
     return () => {
-      // Destroy Typed instance during cleanup to stop animation
+     
       typed.destroy();
     };
   }, []);
