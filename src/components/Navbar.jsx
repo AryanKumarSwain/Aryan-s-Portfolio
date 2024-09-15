@@ -47,13 +47,12 @@ const Navbar = () => {
     return (
         <nav className="fixed container mt-5 lg:mt-0 px-2 flex items-center justify-between z-50">
             <div className="flex flex-shrink-0 p rounded-md">
-                {/* Light logo with black glow */}
+                
                 <img
                     className="hover:contrast-180 w-40 cursor-pointer dark:hidden logo-light p-1  rounded-xl "
                     src={logoLight}
                     alt="logo-light"
                 />
-                {/* Dark logo with white glow */}
                 <img
                     className="hover:contrast-180 w-40 cursor-pointer hidden dark:block logo-dark p-1  rounded-xl"
                     src={logo} 
@@ -115,19 +114,3 @@ const Navbar = () => {
 export default Navbar;
 
 
-
-   // useEffect(() => {
-    //     const navBar = document.querySelector('nav');
-
-    //     window.addEventListener('scroll', () => {
-    //         if (window.scrollY > 50) {
-    //             navBar.classList.add('bg-white', 'bg-opacity-5', 'backdrop-blur-lg', 'shadow-sm');
-    //         } else {
-    //             navBar.classList.remove('bg-white', 'bg-opacity-50', 'backdrop-blur-lg', 'shadow-sm');
-    //         }
-    //     });
-
-    //     return () => {
-    //         window.removeEventListener('scroll', () => {});
-    //     };
-    // }, []);

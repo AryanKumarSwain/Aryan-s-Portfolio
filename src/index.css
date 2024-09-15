@@ -40,27 +40,26 @@ html, body {
   }
 }
 
-/* Glow effect for dark mode (logo and icons) */
-/* Glow effect for dark mode (logo and icons) */
+
 .glow-dark, .icon-glow-dark {
-  backdrop-filter: blur(3px); /* Stronger blur for dark mode */
+  backdrop-filter: blur(3px); 
   box-shadow: 
-    0 10px 30px rgba(151, 151, 151, 0.2), /* Drop shadow */
-    0 0 15px rgba(255, 255, 255, 0.7), /* Outer glow */
+    0 10px 30px rgba(151, 151, 151, 0.2), 
+    0 0 15px rgba(255, 255, 255, 0.7), 
     0 0 30px rgba(255, 255, 255, 0.5), 
     0 0 45px rgba(255, 255, 255, 0.3); 
-  transition: box-shadow 0.1s ease-in-out;
+  transition: box-shadow 0.5s ease-in-out;
 }
 
-/* Glow effect for light mode (logo and icons) */
+
 .glow-light, .icon-glow-light {
-  backdrop-filter: blur(2px); /* Adjust the blur radius as needed */
+  backdrop-filter: blur(2px); 
   box-shadow: 
-    0 10px 30px rgba(0, 0, 0, 0.5), /* Drop shadow */
-    0 0 15px rgba(0, 0, 0, 0.7), /* Outer glow */
+    0 10px 30px rgba(0, 0, 0, 0.5),
+    0 0 15px rgba(0, 0, 0, 0.7), 
     0 0 30px rgba(0, 0, 0, 0.5), 
     0 0 45px rgba(0, 0, 0, 0.3);
-  transition: box-shadow 0.1s ease-in-out;
+  transition: box-shadow 0.5s ease-in-out;
 }
 
 
