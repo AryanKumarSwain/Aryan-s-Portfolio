@@ -106,6 +106,7 @@ const Navbar = () => {
                     </li>
                 </ul>
             </div>
+            
             <SideMenu />
         </nav>
     );
