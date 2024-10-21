@@ -6,6 +6,13 @@
 @tailwind components;
 @tailwind utilities;
 
+.custom-cursor {
+  cursor: url('./public/swain-cursor.png'), auto; /* Path to your custom cursor image */
+  
+}
+
+ 
+
 /* Root font family */
 :root {
   font-family: "Inter", sans-serif;

@@ -1,12 +1,47 @@
-
+import React from "react";
+import pro1 from '../assets/pro1.jpg'; // Adjust the path as necessary
+import pro2 from '../assets/pro2.jpg'; // Adjust the path as necessary
+import pro3 from '../assets/pro3.jpg'; // Adjust the path as necessary
+import pro4 from '../assets/pro4.jpg'; // Adjust the path as necessary
+import Slider from "./Slider"; // Ensure the path is correct
+import { PRO_1 } from "../constants"; 
 const Projects = () => {
-  return (
-    
-    <div id="projects" className="border-b  text-black dark:text-gray-200  border-neutral-800  pb-24 ">
-      <h2 className="my-20 text-center text-4xl ">Projects</h2>
-      <h4 className='flex flex-wrap items-center  justify-center gap-6  text-center text-6xl mt-36 mb-48' > Coming Soon... </h4>
-    </div>
-  )
-}
+  const projectSlides = [
+    {
+      image: pro1,
+      title: "Portfolio Website",
+      description: PRO_1,
+      link: "https://swain.netlify.app/", // Add unique link for project 1
+    },
+    {
+      image: pro2,
+      title: "Project 2",
+      description: "Project 2 description goes here.",
+      link: "https://swainweather.netlify.app/", // Add unique link for project 2
+    },
+    {
+      image: pro3,
+      title: "Project 3",
+      description: "Project 3 description goes here.",
+      link: "https://swain.netlify.app/", // Add unique link for project 3
+    },
+    {
+      image: pro4,
+      title: "Project 4",
+      description: "Project 4 description goes here.",
+      link: "https://swainweather.netlify.app/", // Add unique link for project 4
+    },
+  ];
 
-export default Projects
+  return (
+    <div
+      id="projects"
+      className="border-b text-black dark:text-gray-200 border-neutral-800 pb-24"
+    >
+      <h2 className="my-20 text-center text-4xl">Projects</h2>
+      <Slider slides={projectSlides} />
+    </div>
+  );
+};
+
+export default Projects;

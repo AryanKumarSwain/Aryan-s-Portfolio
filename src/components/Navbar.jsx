@@ -45,16 +45,16 @@ const Navbar = () => {
     }, []);
 
     return (
-        <nav className="fixed container mt-5 lg:mt-0 px-2 flex items-center justify-between z-50">
+        <nav className="fixed  container mt-5 lg:mt-0 px-2 flex items-center justify-between z-50">
             <div className="flex flex-shrink-0 p rounded-md">
                 
                 <img
-                    className="hover:contrast-180 w-40 cursor-pointer dark:hidden logo-light p-1  rounded-xl "
+                    className="hover:contrast-180 w-40 cursor-pointer dark:hidden  p-1  rounded-xl "
                     src={logoLight}
                     alt="logo-light"
                 />
                 <img
-                    className="hover:contrast-180 w-40 cursor-pointer hidden dark:block logo-dark p-1  rounded-xl"
+                    className="hover:contrast-180 w-40 cursor-pointer hidden dark:block  p-1  rounded-xl"
                     src={logo} 
                     alt="logo-dark"
                 />
