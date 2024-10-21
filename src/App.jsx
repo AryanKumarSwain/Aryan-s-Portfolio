@@ -35,7 +35,7 @@ const App = () => {
   }, []);
 
   return (
-    <div className="overflow-x-hidden text-neutral-300 custom-cursor custom-cursor-pointer antialiased selection:bg-cyan-300 selection:text-cyan-900">
+    <div className="overflow-x-hidden text-neutral-300 custom-cursor antialiased selection:bg-cyan-300 selection:text-cyan-900">
       <div className="fixed inset-0 -z-10 h-full w-full bg-light-mode dark:bg-dark-mode"></div>
 
       <div className="container w-full p-4 lg:m-auto">
