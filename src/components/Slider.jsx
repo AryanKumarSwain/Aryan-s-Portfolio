@@ -63,13 +63,13 @@ const Slider = ({ slides }) => {
       {/* Navigation Buttons */}
       <button
         onClick={prevSlide}
-        className="absolute top-1/2 transform -translate-y-1/2 left-2 md:left-4 z-20 bg-gray-800 p-2 rounded-full"
+        className="absolute top-1/2 transform -translate-y-1/2 left-2 md:left-4 z-20  p-4 rounded-full"
       >
         <SlArrowLeft size={24} />
       </button>
       <button
         onClick={nextSlide}
-        className="absolute top-1/2 transform -translate-y-1/2 right-2 md:right-4 z-20 bg-gray-800 p-2 rounded-full"
+        className="absolute top-1/2 transform -translate-y-1/2 right-2 md:right-4 z-20  p-4 rounded-full"
       >
         <SlArrowRight size={24} />
       </button>
