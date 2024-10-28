@@ -7,7 +7,7 @@
 @tailwind utilities;
 
 .custom-cursor {
-  cursor: url('./public/swain-cursor.png'), auto; /* Path to your custom cursor image */
+  cursor: url('./swain-cursor.png'), auto; /* Path to your custom cursor image */
   
 }
 
