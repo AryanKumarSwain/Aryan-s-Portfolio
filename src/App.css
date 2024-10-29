@@ -25,5 +25,9 @@
     pointer-events: none;
   } */
 
-
+  .custom-cursor {
+    cursor: url('./swain-cursor.png'), auto; 
+    
+  }
+  
   
