@@ -14,7 +14,7 @@ const Projects = () => {
       link: "https://swain.netlify.app/", // Add unique link for project 1
     },
     {
-      image: pro2,
+      image: pro4,
       title: "Project 2",
       description: "Project 2 description goes here.",
       link: "https://swainweather.netlify.app/", // Add unique link for project 2

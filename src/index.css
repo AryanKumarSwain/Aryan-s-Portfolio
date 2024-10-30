@@ -6,18 +6,16 @@
 @tailwind components;
 @tailwind utilities;
 
+
+
+ /* Root font family */
+:root {
+  font-family: "Inter", sans-serif;
+}
 .custom-cursor {
   cursor: url('./swain-cursor.png'), auto; 
   
 }
-
- 
-
-/* Root font family */
-:root {
-  font-family: "Inter", sans-serif;
-}
-
 /* Ensure html and body elements cover the full viewport */
 html, body {
   height: 100%;

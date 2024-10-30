@@ -44,7 +44,7 @@ const Slider = ({ slides }) => {
               href={slide.link}
               target="_blank"
               rel="noopener noreferrer"
-              className="block w-full h-[50vh] md:h-[70vh]"
+              className="block w-full h-[50vh] sm:h-[60vh] md:h-[70vh] lg:h-[80vh] "
             >
               <img
                 src={slide.image}
