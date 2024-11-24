@@ -1,7 +1,7 @@
 import React from "react";
 import pro1 from '../assets/pro1.jpg'; // Adjust the path as necessary
 import pro2 from '../assets/pro2.jpg'; // Adjust the path as necessary
-import pro3 from '../assets/pro3.jpg'; // Adjust the path as necessary
+import pro3 from '../assets/pro3.png'; // Adjust the path as necessary
 import pro4 from '../assets/pro4.jpg'; // Adjust the path as necessary
 import Slider from "./Slider"; // Ensure the path is correct
 import { PRO_1 } from "../constants"; 
@@ -15,15 +15,15 @@ const Projects = () => {
     },
     {
       image: pro4,
-      title: "Project 2",
+      title: "Weather App",
       description: "Project 2 description goes here.",
       link: "https://swainweather.netlify.app/", // Add unique link for project 2
     },
     {
       image: pro3,
-      title: "Project 3",
+      title: "GPA Calculator",
       description: "Project 3 description goes here.",
-      link: "https://swain.netlify.app/", // Add unique link for project 3
+      link: "https://swaingpacalculator.netlify.app/", // Add unique link for project 3
     },
     {
       image: pro4,
