@@ -11,25 +11,25 @@ const Projects = () => {
       image: pro1,
       title: "Portfolio Website",
       description: PRO_1,
-      link: "https://swain.netlify.app/", // Add unique link for project 1
+      link: "https://swain.netlify.app/", 
     },
     {
       image: pro4,
       title: "Weather App",
       description: "Project 2 description goes here.",
-      link: "https://swainweather.netlify.app/", // Add unique link for project 2
+      link: "https://swainweather.netlify.app/", 
     },
     {
       image: pro3,
       title: "GPA Calculator",
       description: "Project 3 description goes here.",
-      link: "https://swaingpacalculator.netlify.app/", // Add unique link for project 3
+      link: "https://swaingpacalculator.netlify.app/",
     },
     {
       image: pro4,
       title: "Project 4",
       description: "Project 4 description goes here.",
-      link: "https://swainweather.netlify.app/", // Add unique link for project 4
+      link: "https://swainweather.netlify.app/", 
     },
   ];
 
