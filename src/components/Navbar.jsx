@@ -95,7 +95,11 @@ const Navbar = () => {
                         </a>
                     </li>
                     <li className="hover:contrast-150  social-icon  rounded-full  p-1">
+<<<<<<< HEAD
                         <a href="https://www.instagram.com/_aryanks" target="_blank" rel="noopener noreferrer">
+=======
+                        <a href="https://instagram.com/aryannn.ks" target="_blank" rel="noopener noreferrer">
+>>>>>>> ff5d82a5a24afe3dbe950d359913137c3d48b208
                             <FaInstagram />
                         </a>
                     </li>
