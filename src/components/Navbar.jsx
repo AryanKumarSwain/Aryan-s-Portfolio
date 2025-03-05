@@ -45,22 +45,21 @@ const Navbar = () => {
     }, []);
 
     return (
-        <nav className="fixed  container mt-5 lg:mt-0 px-2 flex items-center justify-between z-50">
+        <nav className="fixed container mt-5 lg:mt-0 px-2 flex items-center justify-between z-50">
             <div className="flex flex-shrink-0 p rounded-md">
-                
                 <img
-                    className="hover:contrast-180 w-40 cursor-pointer dark:hidden  p-1  rounded-xl "
+                    className="hover:contrast-180 w-40 cursor-pointer dark:hidden p-1 rounded-xl logo-light"
                     src={logoLight}
                     alt="logo-light"
                 />
                 <img
-                    className="hover:contrast-180 w-40 cursor-pointer hidden dark:block  p-1  rounded-xl"
+                    className="hover:contrast-180 w-40 cursor-pointer hidden dark:block p-1 rounded-xl logo-dark"
                     src={logo} 
                     alt="logo-dark"
                 />
             </div>
             <div className="text-gray-700 dark:text-gray-200 ml-2 flex flex-shrink-0 rounded-full shadow-2xl backdrop-blur-sm bg-black bg-opacity-15 dark:bg-white dark:bg-opacity-15 social-icon">
-                <ul className="hidden lg:flex gap-4 lg:gap-8 ml-4 mr-4 p-4 cursor-pointer list-none ">
+                <ul className="hidden lg:flex gap-4 lg:gap-8 ml-4 mr-4 p-4 cursor-pointer list-none">
                     <li className="hover:contrast-150">
                         <Link to="hero" spy={true} smooth={true} offset={10} duration={500}>HOME</Link>
                     </li>
@@ -79,31 +78,27 @@ const Navbar = () => {
                 </ul>
             </div>
             <div className="m- flex items-center justify-center gap-4 text-2xl cursor-pointer">
-                <div className="hidden lg:flex social-icon  rounded-full  p-1">
+                <div className="hidden lg:flex social-icon rounded-full p-1">
                     <ThemeChange />
                 </div>
-                <ul className="text-black dark:text-gray-200 hidden lg:flex m-6 items-center justify-center gap-2 text-2xl cursor-pointer ">
+                <ul className="text-black dark:text-gray-200 hidden lg:flex m-6 items-center justify-center gap-2 text-2xl cursor-pointer">
                     {/* Social icons */}
-                    <li className="hover:contrast-150  social-icon  rounded-full  p-1">
+                    <li className="hover:contrast-150 social-icon rounded-full p-1">
                         <a href="https://linkedin.com/in/aryannn-ks/" target="_blank" rel="noopener noreferrer">
                             <FaLinkedin />
                         </a>
                     </li>
-                    <li className="hover:contrast-150  social-icon  rounded-full  p-1">
+                    <li className="hover:contrast-150 social-icon rounded-full p-1">
                         <a href="https://github.com/AryanKumarSwain" target="_blank" rel="noopener noreferrer">
                             <FaGithub />
                         </a>
                     </li>
-                    <li className="hover:contrast-150  social-icon  rounded-full  p-1">
-<<<<<<< HEAD
+                    <li className="hover:contrast-150 social-icon rounded-full p-1">
                         <a href="https://www.instagram.com/_aryanks" target="_blank" rel="noopener noreferrer">
-=======
-                        <a href="https://instagram.com/aryannn.ks" target="_blank" rel="noopener noreferrer">
->>>>>>> ff5d82a5a24afe3dbe950d359913137c3d48b208
                             <FaInstagram />
                         </a>
                     </li>
-                    <li className="hover:contrast-150  social-icon  rounded-full  p-1">
+                    <li className="hover:contrast-150 social-icon rounded-full p-1">
                         <a href="https://x.com/Aryannn_KS" target="_blank" rel="noopener noreferrer">
                             <FaXTwitter />
                         </a>
@@ -117,5 +112,3 @@ const Navbar = () => {
 };
 
 export default Navbar;
-
-

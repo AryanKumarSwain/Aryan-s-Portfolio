@@ -20,11 +20,9 @@ const Footer = () => {
                 <ul className="flex justify-center gap-4">
                     <li className=' hover:contrast-150'><a href="https://linkedin.com/in/aryannn-ks/" target="_blank"><FaLinkedin/></a></li>
                     <li className=' hover:contrast-150'><a href="https://github.com/AryanKumarSwain"target="_blank"><FaGithub/></a></li>
-<<<<<<< HEAD
+
                     <li className=' hover:contrast-150'><a href="https://www.instagram.com/_aryanks"target="_blank"><FaInstagram/></a></li>
-=======
-                    <li className=' hover:contrast-150'><a href="https://instagram.com/aryannn.ks"target="_blank"><FaInstagram/></a></li>
->>>>>>> ff5d82a5a24afe3dbe950d359913137c3d48b208
+
                     <li className=' hover:contrast-150'><a href="https://x.com/Aryannn_KS"target="_blank"><FaXTwitter /></a></li>
                 </ul>
             </div>
