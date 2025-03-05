@@ -101,7 +101,7 @@ const SideMenu = () => {
           <ul className="flex m-6 mt-10 items-center justify-center gap-4 text-2xl cursor-pointer">
             <li className="hover:contrast-150"><a href="https://linkedin.com/in/aryannn-ks/" target="_blank" rel="noopener noreferrer"><FaLinkedin /></a></li>
             <li className="hover:contrast-150"><a href="https://github.com/AryanKumarSwain" target="_blank" rel="noopener noreferrer"><FaGithub /></a></li>
-            <li className="hover:contrast-150"><a href="https://instagram.com" target="_blank" rel="noopener noreferrer"><FaInstagram /></a></li>
+            <li className="hover:contrast-150"><a href="https://www.instagram.com/_aryanks target="_blank" rel="noopener noreferrer"><FaInstagram /></a></li>
             <li className="hover:contrast-150"><a href="https://x.com/Aryannn_KS" target="_blank" rel="noopener noreferrer"><FaXTwitter /></a></li>
           </ul>
         </footer>
