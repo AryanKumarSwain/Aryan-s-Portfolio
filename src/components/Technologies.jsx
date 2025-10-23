@@ -1,61 +1,105 @@
-import { RiReactjsLine } from "react-icons/ri";
-import { FaHtml5 } from "react-icons/fa";
-import { SiTailwindcss } from "react-icons/si";
-import { IoLogoCss3 } from "react-icons/io5";
-import { FaGitAlt } from "react-icons/fa";
-import { SiPython } from "react-icons/si";
+import {
+  RiReactjsLine
+} from "react-icons/ri";
+import {
+  FaHtml5,
+  FaGithub,
+  FaGitAlt,
+  FaBootstrap,
+  FaCode,
+  FaDatabase
+} from "react-icons/fa";
+import {
+  SiTailwindcss,
+  SiPython,
+  SiCplusplus,
+  SiMongodb,
+  SiMysql,
+  SiExpress,
+  SiReact,
+  SiRedux,
+  SiPostman,
+  SiCanva,
+  SiVisualstudiocode,
+  SiNpm,
+  SiBitbucket,
+  SiJira
+} from "react-icons/si";
+import {
+  IoLogoCss3,
+  IoLogoJavascript,
+  IoLogoNodejs
+} from "react-icons/io5";
 import { CgFigma } from "react-icons/cg";
-import { FaGithub } from "react-icons/fa";
-import { FaBootstrap } from "react-icons/fa6";
 import { TbBrandFramerMotion } from "react-icons/tb";
-import { SiCplusplus } from "react-icons/si";
-import { IoLogoJavascript } from "react-icons/io5";
-const Technologies = () => {
-  return (
-    <div id="technologies" className="border-b  text-black dark:text-gray-200  border-neutral-800  pb-24 ">
-      <h2 className="my-20 text-center text-4xl ">Technologies</h2>
-      <div className="flex flex-wrap items-center  justify-center gap-6  ">
-        <div className="relative rounded-2xl bg-black dark:bg-white dark:bg-opacity-10 backdrop-blur-sm bg-opacity-10 hover:bg-opacity-20 dark:hover:bg-opacity-20 border-4 border-neutral dark:border-neutral-800 p-4 cursor-pointer">
-          <FaHtml5 className="text-7xl text-orange-600" />
-        </div>
 
-        <div className="relative rounded-2xl bg-black dark:bg-white dark:bg-opacity-10 backdrop-blur-sm bg-opacity-10 hover:bg-opacity-20 dark:hover:bg-opacity-20 border-4 border-neutral dark:border-neutral-800 p-4 cursor-pointer">
-          <IoLogoCss3 className="text-7xl text-blue-600" />
-        </div>
-        <div className="relative rounded-2xl bg-black dark:bg-white dark:bg-opacity-10 backdrop-blur-sm bg-opacity-10 hover:bg-opacity-20 dark:hover:bg-opacity-20 border-4 border-neutral dark:border-neutral-800 p-4 cursor-pointer">
-          <IoLogoJavascript className="text-7xl text-yellow-400" />
-        </div>
-        <div className="relative rounded-2xl bg-black dark:bg-white dark:bg-opacity-10 backdrop-blur-sm bg-opacity-10 hover:bg-opacity-20 dark:hover:bg-opacity-20 border-4 border-neutral dark:border-neutral-800 p-4 cursor-pointer">
-          <RiReactjsLine className="text-7xl text-cyan-400" />
-        </div>
-        <div className="relative rounded-2xl bg-black dark:bg-white dark:bg-opacity-10 backdrop-blur-sm bg-opacity-10 hover:bg-opacity-20 dark:hover:bg-opacity-20 border-4 border-neutral dark:border-neutral-800 p-4 cursor-pointer">
-          <SiTailwindcss className="text-7xl text-cyan-600" />
-        </div>
-        <div className="relative rounded-2xl bg-black dark:bg-white dark:bg-opacity-10 backdrop-blur-sm bg-opacity-10 hover:bg-opacity-20 dark:hover:bg-opacity-20 border-4 border-neutral dark:border-neutral-800 p-4 cursor-pointer">
-          <FaBootstrap className="text-7xl text-purple-700" />
-        </div>
-        <div className="relative rounded-2xl bg-black dark:bg-white dark:bg-opacity-10 backdrop-blur-sm bg-opacity-10 hover:bg-opacity-20 dark:hover:bg-opacity-20 border-4 border-neutral dark:border-neutral-800 p-4 cursor-pointer">
-          <CgFigma className="text-7xl text-black" />
-        </div>
-        <div className="relative rounded-2xl bg-black dark:bg-white dark:bg-opacity-10 backdrop-blur-sm bg-opacity-10 hover:bg-opacity-20 dark:hover:bg-opacity-20 border-4 border-neutral dark:border-neutral-800 p-4 cursor-pointer">
-          <TbBrandFramerMotion className="text-7xl text-white" />
-        </div>
-        <div className="relative rounded-2xl bg-black dark:bg-white dark:bg-opacity-10 backdrop-blur-sm bg-opacity-10 hover:bg-opacity-20 dark:hover:bg-opacity-20 border-4 border-neutral dark:border-neutral-800 p-4 cursor-pointer">
-          <FaGitAlt className="text-7xl text-orange-600" />
-        </div>
-        <div className="relative rounded-2xl bg-black dark:bg-white dark:bg-opacity-10 backdrop-blur-sm bg-opacity-10 hover:bg-opacity-20 dark:hover:bg-opacity-20 border-4 border-neutral dark:border-neutral-800 p-4 cursor-pointer">
-          <FaGithub className="text-7xl text-white" />
-        </div>
-        <div className="relative rounded-2xl bg-black dark:bg-white dark:bg-opacity-10 backdrop-blur-sm bg-opacity-10 hover:bg-opacity-20 dark:hover:bg-opacity-20 border-4 border-neutral dark:border-neutral-800 p-4 cursor-pointer">
-          <SiCplusplus className="text-7xl text-blue-500" />
-        </div>
-        <div className="relative rounded-2xl bg-black dark:bg-white dark:bg-opacity-10 backdrop-blur-sm bg-opacity-10 hover:bg-opacity-20 dark:hover:bg-opacity-20 border-4 border-neutral dark:border-neutral-800 p-4 cursor-pointer">
-          <SiPython className="text-7xl text-white" />
+const Technologies = () => {
+  const icons = [
+    { Icon: FaHtml5, color: "text-orange-600" },
+    { Icon: IoLogoCss3, color: "text-blue-600" },
+    { Icon: IoLogoJavascript, color: "text-yellow-400" },
+    { Icon: RiReactjsLine, color: "text-cyan-400" },
+    { Icon: SiTailwindcss, color: "text-cyan-600" },
+    { Icon: FaBootstrap, color: "text-purple-700" },
+    { Icon: CgFigma, color: "text-black" },
+    { Icon: TbBrandFramerMotion, color: "text-white" },
+    { Icon: FaGitAlt, color: "text-orange-600" },
+    { Icon: FaGithub, color: "text-white" },
+    { Icon: SiCplusplus, color: "text-blue-500" },
+    { Icon: SiPython, color: "text-white" },
+    { Icon: SiExpress, color: "text-gray-300" },
+    { Icon: IoLogoNodejs, color: "text-green-500" },
+    { Icon: SiMysql, color: "text-sky-600" },
+    { Icon: SiMongodb, color: "text-green-600" },
+    { Icon: SiBitbucket, color: "text-sky-500" },
+    { Icon: SiJira, color: "text-blue-500" },
+    { Icon: SiVisualstudiocode, color: "text-blue-600" },
+    { Icon: SiRedux, color: "text-violet-600" },
+    { Icon: SiPostman, color: "text-orange-400" },
+    { Icon: SiNpm, color: "text-red-600" },
+    { Icon: SiCanva, color: "text-pink-400" },
+  ];
+
+  return (
+    <div
+      id="technologies"
+      className="border-b border-neutral-800 pb-24 text-black dark:text-gray-200"
+    >
+      <h2 className="my-20 text-center text-4xl">Technologies</h2>
+
+      <div className="marquee-viewport mt-6">
+        <div className="marquee-track">
+
+          {/* Main group */}
+          <div className="marquee-group">
+            {icons.map(({ Icon, color }, index) => (
+              <div
+                key={index}
+                className="relative cursor-pointer rounded-2xl border-4 border-neutral bg-black bg-opacity-10 p-4 backdrop-blur-sm hover:bg-opacity-20 
+                  dark:border-neutral-800 dark:bg-white dark:bg-opacity-10 dark:hover:bg-opacity-20"
+              >
+                <Icon className={`text-7xl ${color}`} />
+              </div>
+            ))}
+          </div>
+
+          {/* Duplicate group for seamless scroll */}
+          <div className="marquee-group" aria-hidden="true">
+            {icons.map(({ Icon, color }, index) => (
+              <div
+                key={`dup-${index}`}
+                className="relative cursor-pointer rounded-2xl border-4 border-neutral bg-black bg-opacity-10 p-4 backdrop-blur-sm hover:bg-opacity-20 
+                  dark:border-neutral-800 dark:bg-white dark:bg-opacity-10 dark:hover:bg-opacity-20"
+              >
+                <Icon className={`text-7xl ${color}`} />
+              </div>
+            ))}
+          </div>
+
         </div>
       </div>
     </div>
+  );
+};
 
-  )
-}
-
-export default Technologies
+export default Technologies;

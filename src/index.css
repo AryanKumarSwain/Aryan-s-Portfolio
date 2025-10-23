@@ -63,17 +63,21 @@ html, body {
 }
 
 .marquee-track {
-  display: inline-flex;
+  display: flex;
   gap: 1.5rem;
   align-items: center;
+  width: max-content; /* ensure track measures full content */
+  white-space: nowrap; /* prevent wrapping */
+  will-change: transform;
   animation: marquee 18s linear infinite;
 }
 
 /* Duplicate container to create seamless loop */
-.marquee-track .marquee-group {
-  display: inline-flex;
+.marquee-track > .marquee-group {
+  display: flex;
   gap: 1.5rem;
   align-items: center;
+  flex: 0 0 auto; /* don't shrink; keep original group width */
 }
 
 .marquee-viewport:hover .marquee-track {
@@ -83,4 +87,12 @@ html, body {
 @keyframes marquee {
   0% { transform: translateX(0%); }
   100% { transform: translateX(-50%); }
+}
+
+/* Accessibility: stop animation for users who prefer reduced motion */
+@media (prefers-reduced-motion: reduce) {
+  .marquee-track {
+    animation: none;
+    transform: none !important;
+  }
 }
