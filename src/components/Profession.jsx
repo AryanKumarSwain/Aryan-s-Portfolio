@@ -7,7 +7,7 @@ function Profession() {
 
   React.useEffect(() => {
     const typed = new Typed(el.current, {
-      strings: ['Web Developer','Coder','Graphic Designer','Freelancer'],
+      strings: ['Web Developer','MERN Stack Developer','Graphic Designer','Freelancer','Coder'],
       loop: true,
       typeSpeed : 100,
       backSpeed : 80,

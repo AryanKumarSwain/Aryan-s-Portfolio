@@ -74,7 +74,7 @@ const SideMenu = () => {
         <footer className="mt-10">
           <ul className="flex items-center justify-center gap-4 text-2xl cursor-pointer text-white">
             <li className="hover:contrast-150">
-              <a href="https://linkedin.com/in/aryannn-ks/" target="_blank" rel="noopener noreferrer">
+              <a href="https://linkedin.com/in/aryan-ks/" target="_blank" rel="noopener noreferrer">
                 <FaLinkedin />
               </a>
             </li>

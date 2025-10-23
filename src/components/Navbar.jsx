@@ -84,7 +84,7 @@ const Navbar = () => {
                 <ul className="text-black dark:text-gray-200 hidden lg:flex m-6 items-center justify-center gap-2 text-2xl cursor-pointer">
                     {/* Social icons */}
                     <li className="hover:contrast-150 social-icon rounded-full p-1">
-                        <a href="https://linkedin.com/in/aryannn-ks/" target="_blank" rel="noopener noreferrer">
+                        <a href="https://linkedin.com/in/aryan-ks/" target="_blank" rel="noopener noreferrer">
                             <FaLinkedin />
                         </a>
                     </li>

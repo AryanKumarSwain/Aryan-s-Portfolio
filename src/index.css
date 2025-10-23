@@ -55,3 +55,32 @@ html, body {
   filter: drop-shadow(0 0 10px rgb(0, 0, 0));
   transition: filter 1s ease; /* Added transition for smooth effect */
 }
+
+/* Marquee (right-to-left) helpers */
+.marquee-viewport {
+  overflow: hidden;
+  width: 100%;
+}
+
+.marquee-track {
+  display: inline-flex;
+  gap: 1.5rem;
+  align-items: center;
+  animation: marquee 18s linear infinite;
+}
+
+/* Duplicate container to create seamless loop */
+.marquee-track .marquee-group {
+  display: inline-flex;
+  gap: 1.5rem;
+  align-items: center;
+}
+
+.marquee-viewport:hover .marquee-track {
+  animation-play-state: paused; /* pause on hover */
+}
+
+@keyframes marquee {
+  0% { transform: translateX(0%); }
+  100% { transform: translateX(-50%); }
+}
