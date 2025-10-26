@@ -16,6 +16,26 @@
   cursor: url('./swain-cursor.png'), auto; 
   
 }
+
+/* Apply custom cursor globally while preserving sensible defaults
+   - Use the provided image as the default cursor on the page
+   - Provide fallbacks: pointer for clickable items and text for inputs
+   - Note: Many browsers only honor hotspot offsets for .cur files. If hotspot
+     position matters, consider providing a .cur with the desired hotspot.
+*/
+html, body {
+  cursor: url('./swain-cursor.png') 16 16, auto; /* fallback to auto */
+}
+
+/* Make clickable elements show pointer (still using image if supported) */
+a, button, summary, [role="button"], .relative { /* include .relative elements like icon boxes */
+  cursor: url('./swain-cursor.png') 16 16, pointer;
+}
+
+/* Keep text cursor for inputs and editable content */
+input, textarea, select, [contenteditable="true"] {
+  cursor: text;
+}
 /* Ensure html and body elements cover the full viewport */
 html, body {
   height: 100%;
@@ -72,6 +92,11 @@ html, body {
   animation: marquee 18s linear infinite;
 }
 
+/* Left-to-right variant (reverse direction) */
+.marquee-track.reverse {
+  animation: marquee-reverse 18s linear infinite;
+}
+
 /* Duplicate container to create seamless loop */
 .marquee-track > .marquee-group {
   display: flex;
@@ -87,6 +112,11 @@ html, body {
 @keyframes marquee {
   0% { transform: translateX(0%); }
   100% { transform: translateX(-50%); }
+}
+
+@keyframes marquee-reverse {
+  0% { transform: translateX(-50%); }
+  100% { transform: translateX(0%); }
 }
 
 /* Accessibility: stop animation for users who prefer reduced motion */

@@ -62,6 +62,11 @@ const Technologies = () => {
     { Icon: SiCanva, color: "text-pink-400" },
   ];
 
+  // split icons into two halves for two marquee rows
+  const half = Math.ceil(icons.length / 2);
+  const iconsFirst = icons.slice(0, half);
+  const iconsSecond = icons.slice(half);
+
   return (
     <div
       id="technologies"
@@ -69,31 +74,65 @@ const Technologies = () => {
     >
       <h2 className="my-20 text-center text-4xl">Technologies</h2>
 
+      {/* First marquee: right-to-left (existing animation) */}
       <div className="marquee-viewport mt-6">
         <div className="marquee-track">
 
           {/* Main group */}
           <div className="marquee-group">
-            {icons.map(({ Icon, color }, index) => (
+            {iconsFirst.map(({ Icon, color }, index) => (
               <div
                 key={index}
-                className="relative cursor-pointer rounded-2xl border-4 border-neutral bg-black bg-opacity-10 p-4 backdrop-blur-sm hover:bg-opacity-20 
+                className="relative cursor-pointer rounded-2xl border-4 border-neutral bg-black bg-opacity-10 p-6 backdrop-blur-sm hover:bg-opacity-20 
                   dark:border-neutral-800 dark:bg-white dark:bg-opacity-10 dark:hover:bg-opacity-20"
               >
-                <Icon className={`text-7xl ${color}`} />
+                <Icon className={`text-8xl ${color}`} />
               </div>
             ))}
           </div>
 
           {/* Duplicate group for seamless scroll */}
           <div className="marquee-group" aria-hidden="true">
-            {icons.map(({ Icon, color }, index) => (
+            {iconsFirst.map(({ Icon, color }, index) => (
               <div
                 key={`dup-${index}`}
-                className="relative cursor-pointer rounded-2xl border-4 border-neutral bg-black bg-opacity-10 p-4 backdrop-blur-sm hover:bg-opacity-20 
+                className="relative cursor-pointer rounded-2xl border-4 border-neutral bg-black bg-opacity-10 p-6 backdrop-blur-sm hover:bg-opacity-20 
                   dark:border-neutral-800 dark:bg-white dark:bg-opacity-10 dark:hover:bg-opacity-20"
               >
-                <Icon className={`text-7xl ${color}`} />
+                <Icon className={`text-8xl ${color}`} />
+              </div>
+            ))}
+          </div>
+
+        </div>
+      </div>
+
+      {/* Second marquee: left-to-right (reverse animation) */}
+      <div className="marquee-viewport mt-6">
+        <div className="marquee-track reverse">
+
+          {/* Main group */}
+          <div className="marquee-group">
+            {iconsSecond.map(({ Icon, color }, index) => (
+              <div
+                key={`r-${index}`}
+                className="relative cursor-pointer rounded-2xl border-4 border-neutral bg-black bg-opacity-10 p-6 backdrop-blur-sm hover:bg-opacity-20 
+                  dark:border-neutral-800 dark:bg-white dark:bg-opacity-10 dark:hover:bg-opacity-20"
+              >
+                <Icon className={`text-8xl ${color}`} />
+              </div>
+            ))}
+          </div>
+
+          {/* Duplicate group for seamless scroll */}
+          <div className="marquee-group" aria-hidden="true">
+            {iconsSecond.map(({ Icon, color }, index) => (
+              <div
+                key={`r-dup-${index}`}
+                className="relative cursor-pointer rounded-2xl border-4 border-neutral bg-black bg-opacity-10 p-6 backdrop-blur-sm hover:bg-opacity-20 
+                  dark:border-neutral-800 dark:bg-white dark:bg-opacity-10 dark:hover:bg-opacity-20"
+              >
+                <Icon className={`text-8xl ${color}`} />
               </div>
             ))}
           </div>
