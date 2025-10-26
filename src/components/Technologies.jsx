@@ -11,6 +11,7 @@ import {
 } from "react-icons/fa";
 import {
   SiTailwindcss,
+  SiTypescript,
   SiPython,
   SiCplusplus,
   SiMongodb,
@@ -38,8 +39,9 @@ const Technologies = () => {
     { Icon: FaHtml5, color: "text-orange-600" },
     { Icon: IoLogoCss3, color: "text-blue-600" },
     { Icon: IoLogoJavascript, color: "text-yellow-400" },
-    { Icon: RiReactjsLine, color: "text-cyan-400" },
-    { Icon: SiTailwindcss, color: "text-cyan-600" },
+  { Icon: RiReactjsLine, color: "text-cyan-400" },
+  { Icon: SiTypescript, color: "text-sky-500" },
+  { Icon: SiTailwindcss, color: "text-cyan-600" },
     { Icon: FaBootstrap, color: "text-purple-700" },
     { Icon: CgFigma, color: "text-black" },
     { Icon: TbBrandFramerMotion, color: "text-white" },
