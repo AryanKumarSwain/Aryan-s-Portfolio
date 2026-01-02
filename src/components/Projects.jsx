@@ -8,6 +8,12 @@ import Slider from "./Slider"; // Ensure the path is correct
 import { PRO_1 } from "../constants"; 
 const Projects = () => {
   const projectSlides = [
+      {
+      image: pro5,
+      title: "SWAIN Talks",
+      description: "Chat app, Will make it better than Whatsapp 😅.",
+      link: "https://talks-swain.onrender.com/", 
+    },
     {
       image: pro1,
       title: "SWAIN Portfolio Website",
@@ -31,13 +37,8 @@ const Projects = () => {
       title: "SWAIN Type's",
       description: "Will make it better than MONKEY TYPE.😅",
       link: "https://swaintype.netlify.app/", 
-    },
-    {
-      image: pro5,
-      title: "SWAIN Talks",
-      description: "Chat app, Will make it better than Whatsapp 😅. Ongoing...",
-      link: "https://talks-swain.onrender.com/", 
-    },
+    }
+  
     
   ];
 
