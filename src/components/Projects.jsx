@@ -36,7 +36,7 @@ const Projects = () => {
       image: pro5,
       title: "SWAIN Talks",
       description: "Chat app, Will make it better than Whatsapp 😅. Ongoing...",
-      link: "https://swain.netlify.app/", 
+      link: "https://talks-swain.onrender.com/", 
     },
     
   ];
