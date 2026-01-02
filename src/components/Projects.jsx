@@ -5,25 +5,25 @@ import pro3 from '../assets/pro3.png'; // Adjust the path as necessary
 import pro4 from '../assets/pro4.jpg'; // Adjust the path as necessary
 import pro5 from '../assets/pro5.png'; // Adjust the path as necessary
 import Slider from "./Slider"; // Ensure the path is correct
-import { PRO_1 } from "../constants"; 
+
 const Projects = () => {
   const projectSlides = [
       {
       image: pro5,
       title: "SWAIN Talks",
-      description: "Chat app, Will make it better than Whatsapp 😅.",
+      description: "MERN Stack based Social Media Application.",
       link: "https://talks-swain.onrender.com/", 
     },
     {
       image: pro1,
       title: "SWAIN Portfolio Website",
-      description: PRO_1,
+      description: "My portfolio website built with React and Tailwind CSS.",
       link: "https://swain.netlify.app/", 
     },
     {
       image: pro4,
       title: "SWAIN Weather App",
-      description: "Just a Weather app.😁",
+      description: "Get real-time weather updates for any location.🌤️",
       link: "https://swainweather.netlify.app/", 
     },
     {
@@ -35,7 +35,7 @@ const Projects = () => {
     {
       image: pro2,
       title: "SWAIN Type's",
-      description: "Will make it better than MONKEY TYPE.😅",
+      description: "A typing speed test application to improve your typing skills.⌨️",
       link: "https://swaintype.netlify.app/", 
     }
   
