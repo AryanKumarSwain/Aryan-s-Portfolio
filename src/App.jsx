@@ -7,7 +7,6 @@ import Contact from './components/Contact';
 import Footer from './components/Footer';
 import Projects from './components/Projects';
 
-import Testimonials from './components/Testimonials';
 import Loading from './components/Loading';
 import './App.css'; // Ensure you import the CSS where the glow effect is defined
 
@@ -62,7 +61,7 @@ const App = () => {
         <About />
         <Technologies />
         <Projects />
-        <Testimonials />
+
         <Contact />
         <Footer />
        
