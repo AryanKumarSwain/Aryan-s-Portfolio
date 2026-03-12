@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import About from './components/About';
 import Hero from './components/Hero';
 import Navbar from './components/Navbar';
@@ -6,9 +6,23 @@ import Technologies from './components/Technologies';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 import Projects from './components/Projects';
+
+import Testimonials from './components/Testimonials';
+import Loading from './components/Loading';
 import './App.css'; // Ensure you import the CSS where the glow effect is defined
 
 const App = () => {
+  const [isLoading, setIsLoading] = useState(true);
+
+  // Simulate loading time
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      setIsLoading(false);
+    }, 2000); // 2 seconds loading
+
+    return () => clearTimeout(timer);
+  }, []);
+
   // Add scroll effect
   React.useEffect(() => {
     const logoDark = document.querySelector('.logo-dark');
@@ -34,18 +48,24 @@ const App = () => {
     };
   }, []);
 
+  if (isLoading) {
+    return <Loading />;
+  }
+
   return (
     <div className="overflow-x-hidden text-neutral-300 custom-cursor antialiased selection:bg-cyan-300 selection:text-cyan-900">
       <div className="fixed inset-0 -z-10 h-full w-full bg-light-mode dark:bg-dark-mode"></div>
 
-      <div className="container w-full p-4 lg:m-auto">
+      <div className="container mx-auto px-4 py-4">
         <Navbar />
         <Hero />
         <About />
         <Technologies />
         <Projects />
+        <Testimonials />
         <Contact />
         <Footer />
+       
       </div>
     </div>
   );

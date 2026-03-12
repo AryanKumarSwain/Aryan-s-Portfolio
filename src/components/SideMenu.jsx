@@ -84,7 +84,7 @@ const SideMenu = () => {
               </a>
             </li>
             <li className="hover:contrast-150">
-              <a href="https://www.instagram.com/_aryanks" target="_blank" rel="noopener noreferrer">
+              <a href="https://www.instagram.com/aaryankumarswain" target="_blank" rel="noopener noreferrer">
                 <FaInstagram />
               </a>
             </li>

@@ -48,13 +48,13 @@ const Navbar = () => {
         <nav className="fixed container mt-5 lg:mt-0 px-2 flex items-center justify-between z-50">
             <div className="flex flex-shrink-0 p rounded-md">
                 <img
-                    className="hover:contrast-180 w-40 cursor-pointer dark:hidden p-1 rounded-xl logo-light"
+                    className="hover:contrast-180 w-24 sm:w-32 md:w-40 cursor-pointer dark:hidden p-1 rounded-xl logo-light"
                     src={logoLight}
                     alt="logo-light"
                 />
                 <img
-                    className="hover:contrast-180 w-40 cursor-pointer hidden dark:block p-1 rounded-xl logo-dark"
-                    src={logo} 
+                    className="hover:contrast-180 w-24 sm:w-32 md:w-40 cursor-pointer hidden dark:block p-1 rounded-xl logo-dark"
+                    src={logo}
                     alt="logo-dark"
                 />
             </div>
@@ -94,7 +94,7 @@ const Navbar = () => {
                         </a>
                     </li>
                     <li className="hover:contrast-150 social-icon rounded-full p-1">
-                        <a href="https://www.instagram.com/_aryanks" target="_blank" rel="noopener noreferrer">
+                        <a href="https://www.instagram.com/aaryankumarswain" target="_blank" rel="noopener noreferrer">
                             <FaInstagram />
                         </a>
                     </li>

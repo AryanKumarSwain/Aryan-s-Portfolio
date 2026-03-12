@@ -15,13 +15,13 @@ const Footer = () => {
                     <span>aryannn.ks@gmail.com</span>
                 </div>
             </div>
-            <div className="text-center sm:flex items-center justify-between border-t border-gray-400 dark:border-gray-600 text-black dark:text-white  mx-[3%] mt-12 px-1 py-10 ">
-                <p>© 2024-2025 SWAIN. All rights reserved.</p>
+            <div className="text-center flex flex-col sm:flex-row items-center justify-between border-t border-gray-400 dark:border-gray-600 text-black dark:text-white mx-[3%] mt-12 px-1 py-10">
+                <p className="mb-4 sm:mb-0">© 2024-2025 SWAIN. All rights reserved.</p>
                 <ul className="flex justify-center gap-4">
                     <li className=' hover:contrast-150'><a href="https://linkedin.com/in/aryan-ks/" target="_blank"><FaLinkedin/></a></li>
                     <li className=' hover:contrast-150'><a href="https://github.com/AryanKumarSwain"target="_blank"><FaGithub/></a></li>
 
-                    <li className=' hover:contrast-150'><a href="https://www.instagram.com/_aryanks"target="_blank"><FaInstagram/></a></li>
+                    <li className=' hover:contrast-150'><a href="https://www.instagram.com/aaryankumarswain"target="_blank"><FaInstagram/></a></li>
 
                     <li className=' hover:contrast-150'><a href="https://x.com/Aryannn_KS"target="_blank"><FaXTwitter /></a></li>
                 </ul>

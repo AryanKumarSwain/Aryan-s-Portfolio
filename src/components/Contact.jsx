@@ -43,7 +43,7 @@ const Contact = () => {
                 I'd love to hear from you! If you have any questions, comments or feedback, please use the form below.
             </p>
             <form onSubmit={onSubmit} className="max-w-2xl mx-auto">
-                <div className="grid grid-cols-2 gap-6 mt-10 mb-6">
+                <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 mt-10 mb-6">
                     <input
                         type="text"
                         placeholder="Your name"
