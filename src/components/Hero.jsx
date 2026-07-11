@@ -55,7 +55,7 @@ const Hero = () => {
           </div>
           <button className="flex shrink-0 mx-4 sm:mx-20 md:mx-32 lg:mx-44 justify-center items-center text-white text-lg rounded-full bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500 font-light tracking-tighter p-4 mb-10 lg:mb-20 cursor-pointer hover:shadow-[0_0_15px_rgba(255,255,255,0.8)] dark:hover:shadow-[0_0_15px_rgba(128,90,213,0.8)] transition-shadow duration-100">
             <a
-              href="https://drive.google.com/file/d/1TLQPrfkqyGtvRGLfa4c-GHpZP9Od6_lM/view?usp=sharing"
+              href="https://drive.google.com/file/d/1fZ1EUx6d6V8RMS8uqxbD6nShYQ7yjF1n/view?usp=drivesdk"
               target="_blank"
               rel="noopener noreferrer"
             >
