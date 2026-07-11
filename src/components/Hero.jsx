@@ -62,6 +62,7 @@ const Hero = () => {
               My Resume
             </a>
           </button>
+          
         </div>
 
         <div className="hidden lg:block w-1/2 p-16">
